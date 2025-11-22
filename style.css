@@ -127,3 +127,6 @@ li{
 .ml-auto{
     margin: 0 auto;
 }
+.al-right {
+    text-align: right;
+}
