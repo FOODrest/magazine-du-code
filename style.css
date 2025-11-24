@@ -85,14 +85,14 @@
 .container{
     width: 800px;
 }
-.bg{
+.bg-light-gray{
     background-color: #f7f7f7;
 }
 .text-center{
     text-align: center;
 }
 .font-size{
-    font-size: 25px;
+    font-size: 20px;
 }
 .color{
     color: #1098ad;
@@ -117,7 +117,9 @@ li{
 .font-s{
     font-style: italic;
 }
-
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .ml{
     margin-left: 40px;
 }
@@ -129,4 +131,13 @@ li{
 }
 .al-right {
     text-align: right;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.bt-8{
+    border-top: 8px solid #1098ad;
+}
+.text-underline{
+    text-decoration: none;
 }
