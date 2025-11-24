@@ -131,6 +131,12 @@ li{
 .ml-auto{
     margin: 0 auto;
 }
+.font-s10{
+    font-size: 10px;
+}
+.font-s9{
+    font-size: 11px;
+}
 .border-top {
     border-top: 2px solid #1098ad;
     border-bottom:2px solid #1098ad;
