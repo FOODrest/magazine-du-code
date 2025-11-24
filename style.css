@@ -1,3 +1,87 @@
+
+
+/************** CSS_Issue 2 *****************/
+
+
+.w800{
+  width: 800px;
+}
+.mar-top-40 {
+  margin-top: 40px;
+}
+.d-flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.d-flex{
+  display: flex;
+}
+
+.jc-center{
+  justify-content: center;
+}
+
+.in-block{
+  display: inline;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.bg-header{
+  background-color: #f7f7f7 ;
+}
+.bg-span{
+  background-color: #ffe70e ;
+}
+
+.t-blue{
+  color:#1098ad;
+}
+
+.t-black{
+  color:#000;
+}
+
+.fsize-10{
+  font-size:10px;
+}
+
+.top-2{
+  top: -5px;
+}
+.right-2{
+  right: 2px;
+}
+.pad-span{
+  padding:4px 8px;
+  
+}
+
+.w-50px{
+  width: 50px;
+}
+.h-50px{
+  height: 50px;
+}
+.r-50{
+  border-radius: 50%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.mr-top-25{
+  margin-top: 25px;
+}
+
+.text-col{
+  color:#444;
+}
 .container{
     width: 800px;
 }
@@ -44,6 +128,9 @@ li{
 }
 .ml-auto{
     margin: 0 auto;
+}
+.al-right {
+    text-align: right;
 }
 .ml-15{
     margin-left: 15px;
