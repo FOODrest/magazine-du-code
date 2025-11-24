@@ -2,7 +2,9 @@
 
 /************** CSS_Issue 2 *****************/
 
-
+html, body {
+    position: relative;   /* important */
+}
 .w800{
   width: 800px;
 }
@@ -47,7 +49,7 @@
 }
 
 .fsize-10{
-  font-size:10px;
+  font-size:15px;
 }
 
 .top-2{
@@ -97,7 +99,7 @@
 .color{
     color: #1098ad;
 }
-ul{
+.ul{
     list-style: none;   
 }
 .d-flex{
@@ -167,13 +169,14 @@ li{
 .c-post{
     color: #1098ad;
 }
-.po-absolute{
-    position: absolute;
-    bottom: 20px;
-    right:0;
+.po-absolute {
+    position: absolute;   /* relative to the page */
+    bottom: 20px;         /* 20px from the page bottom */
+    right: 10px;          /* 10px from page right side */
     border: 1px solid rgb(119, 118, 118);
+    padding: 5px;
 }
-p-5{
+.p-5{
     padding: 5px;
 }
 .po-absolute:hover{
